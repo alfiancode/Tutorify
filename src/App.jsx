@@ -1,16 +1,10 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import "./App.css";
-
+import Navbar from "./components/Navbar";
+import Banner from "./components/Banner";
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div className="App text-blue-600 font-sans ">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam recusandae
-      consectetur dolorum? Laudantium earum odio perspiciatis dolorum ad ut
-      laborum iusto quas exercitationem, similique praesentium amet animi, modi
-      sit impedit!sd
+    <div className="">
+      <Navbar />
+      <Banner />
     </div>
   );
 }
