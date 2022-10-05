@@ -20,7 +20,7 @@ const Banner = () => {
       </div>
       {/* button with green color */}
       <div className="mt-10">
-        <button className="bg-[#058E6E] text-white px-[45px] py-[22px]  rounded-2xl">
+        <button className="bg-secondary text-white px-[45px] py-[22px]  rounded-2xl">
           Try Free Lessons
         </button>
         {/* import image  */}
