@@ -83,7 +83,9 @@ const YougGet = () => {
             </div>
           </div>
         </div>
-        <div className="">gambasr</div>
+        <div className="">
+          <img src="person2.png" alt="teacher" className="w-full" />
+        </div>
       </div>
     </div>
   );
