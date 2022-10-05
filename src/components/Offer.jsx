@@ -2,7 +2,7 @@ import React from "react";
 
 const Offer = () => {
   return (
-    <div className="mx-4 my-20">
+    <div className="mx-4 my-[72px]">
       <div className="flex flex-col md:flex-row">
         <div className="flex flex-col">
           <div className="text-main font-semibold mb-8 ">
