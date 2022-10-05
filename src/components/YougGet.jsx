@@ -83,7 +83,7 @@ const YougGet = () => {
             </div>
           </div>
         </div>
-        <div className="">gambar</div>
+        <div className="">gambasr</div>
       </div>
     </div>
   );
