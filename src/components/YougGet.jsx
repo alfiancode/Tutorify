@@ -83,6 +83,7 @@ const YougGet = () => {
             </div>
           </div>
         </div>
+        <div className="">gambar</div>
       </div>
     </div>
   );
