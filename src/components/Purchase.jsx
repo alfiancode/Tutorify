@@ -3,8 +3,8 @@ import React from "react";
 const Purchase = () => {
   return (
     <div>
-      <div className="flex md:flex-row mx-4">
-        <div className="flex flex-col">
+      <div className="flex flex-col md:flex-row mx-4">
+        <div className="flex flex-col pb-10">
           <div className=" font-semibold text-3xl leading-relaxed mb-6">
             Purchase your awesome lessons and find your tutors
           </div>
@@ -18,12 +18,15 @@ const Purchase = () => {
               Book Your Lessons
             </div>
             <a
-              class="inline-flex items-center  border border-4 border-main px-4 py-4 text-main focus:outline-none rounded-2xl "
+              class="inline-flex items-center   border-4 border-main px-4 py-4 text-main focus:outline-none rounded-2xl ring-inset"
               href="/"
             >
               <span class="text-sm font-medium"> Find Your Tutors </span>
             </a>
           </div>
+        </div>
+        <div className="">
+          <img className="w-full h-full" src="person1.png" alt="person1" />
         </div>
       </div>
     </div>
