@@ -6,6 +6,7 @@ import YougGet from "./components/YougGet";
 import Works from "./components/Works";
 import EduSmart from "./components/EduSmart";
 import "swiper/css/bundle";
+import LearnMore from "./components/LearnMore";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <YougGet />
       <Works />
       <EduSmart />
+      <LearnMore />
     </div>
   );
 }
