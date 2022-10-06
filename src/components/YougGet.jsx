@@ -5,7 +5,7 @@ const YougGet = () => {
     <div className="mt-20 mx-4">
       <div className="flex flex-col md:flex-row">
         <div className="flex flex-col pb-10">
-          <div className="font-semibold text-3xl tracking-wider text-right">
+          <div className="font-semibold text-3xl tracking-wider text-right mb-7">
             What Will You <span className="text-secondary ">Get</span> ?
           </div>
           <div className="font-light text-sm text-right leading-loose mb-10">
@@ -83,7 +83,7 @@ const YougGet = () => {
             </div>
           </div>
         </div>
-        <div className="">
+        <div className=" mx-auto">
           <img src="person2.png" alt="teacher" className="w-full" />
         </div>
       </div>
