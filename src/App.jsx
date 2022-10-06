@@ -4,6 +4,7 @@ import Offer from "./components/Offer";
 import Purchase from "./components/Purchase";
 import YougGet from "./components/YougGet";
 import Works from "./components/Works";
+import EduSmart from "./components/EduSmart";
 function App() {
   return (
     <div className="mb-20">
@@ -13,6 +14,7 @@ function App() {
       <Purchase />
       <YougGet />
       <Works />
+      <EduSmart />
     </div>
   );
 }
