@@ -7,10 +7,11 @@ import Works from "./components/Works";
 import EduSmart from "./components/EduSmart";
 import "swiper/css/bundle";
 import LearnMore from "./components/LearnMore";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="mb-20">
+    <div className="">
       <Navbar />
       <Banner />
       <Offer />
@@ -19,6 +20,7 @@ function App() {
       <Works />
       <EduSmart />
       <LearnMore />
+      <Footer />
     </div>
   );
 }
