@@ -1,4 +1,5 @@
 import React from "react";
+import Comment from "./Comment";
 
 const EduSmart = () => {
   return (
@@ -13,7 +14,9 @@ const EduSmart = () => {
             from around the world.
           </p>
         </div>
-        <div className="">bawah</div>
+        <div className="">
+          <Comment />
+        </div>
       </div>
     </div>
   );
