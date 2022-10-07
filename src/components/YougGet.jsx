@@ -3,7 +3,7 @@ import { FaCheck } from "react-icons/fa";
 const YougGet = () => {
   return (
     <div className="mt-20 mx-4">
-      <div className="flex flex-col md:flex-row">
+      <div className="flex flex-col ">
         <div className="flex flex-col pb-10">
           <div className="font-semibold text-3xl tracking-wider text-right mb-7">
             What Will You <span className="text-secondary ">Get</span> ?

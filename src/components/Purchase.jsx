@@ -3,7 +3,7 @@ import React from "react";
 const Purchase = () => {
   return (
     <div>
-      <div className="flex flex-col md:flex-row mx-4">
+      <div className="flex flex-col mx-4">
         <div className="flex flex-col pb-10">
           <div className=" font-semibold text-3xl leading-relaxed mb-6">
             Purchase your awesome lessons and find your tutors

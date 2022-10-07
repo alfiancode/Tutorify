@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="">
+    <div className="max-w-sm mx-auto">
       <Navbar />
       <Banner />
       <Offer />

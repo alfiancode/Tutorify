@@ -3,7 +3,7 @@ import { FaRegCalendarAlt, FaLaptopCode, FaUser } from "react-icons/fa";
 const Works = () => {
   return (
     <div className="mt-[70px] mx-4">
-      <div className="flex flex-col md:flex-row ">
+      <div className="flex flex-col  ">
         <div className="">
           <div className="font-semibold text-3xl tracking-wider mb-7">
             Here’s how it <span className="text-main ">works</span>
